@@ -1,0 +1,24 @@
+.tasks-parent {
+  display: flex;
+  flex-direction: column; /* leaves the tasks in a vertical order */
+  overflow-y: auto; /* hides any text outside of the scroll box*/
+  max-height: 400px; /* controls how long the scroll box is */
+  width: 100%;
+  border: 1px solid #ccc; /* adds a border around the box */
+  align-items: center;/* centers items to the middle of the page */
+}
+
+/* spacing for the tasks in the scroll box */
+.tasks {
+  padding: 10px; /* controls spacing between tasks*/
+  margin-bottom: 10px; /* adds space to the bottom of the tasks*/
+}
+
+/* centering for the new task button and its menu */
+.new-tsk-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
