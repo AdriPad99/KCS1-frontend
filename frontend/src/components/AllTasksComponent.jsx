@@ -15,7 +15,7 @@ export default function AllTasksComponent({
   const [pageRefresh, setPageRefresh] = useState(0);
 
   // holds the returned tasks in this state
-  const [taskData, setTaskData] = useState();
+  const [taskData, setTaskData] = useState([]);
 
   // holds state and determines if the update menu is open
   const [isUpdateMenuOpen, setIsUpdateMenuOpen] = useState(false);
